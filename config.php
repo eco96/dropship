@@ -52,6 +52,8 @@ $config['REPLACE_CHAR'] = 'misal. shopee-Tokopedia'; //Gunakan tanda strip '-' s
 /**
  * Update Expiry Date ONLY pada Product Description (Produk Kesehatan biasanya)
  * untuk update masa expiry date yang paling update (mendeteksi format MM/YYYY)
+$config['DELETE_DESC']  = FALSE; 
+ * Fitur ini tidak berlaku jika fitur dan REPLACE_DESC diaktifkan
  */
 $config['EXP_DATE']     = FALSE; 
 ?>
