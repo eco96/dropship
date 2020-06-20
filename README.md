@@ -10,6 +10,19 @@
 - `$config['REPLACE_DESC']` fitur update deskripsi produk full + Filtering mengganti karakter yang tercantumkan didalamnya (Maks 2000 Karakter)
 - `$config['EXP_DATE']` fitur update hanya tanggal expiry pada deskripsi produk yang mendeteksi format MM/YYYY
 
-**Setelah selesai konfigurasi lalu jalankan file `run.php` dengan command `php run.php` di terminal. Kemudian file list produk akan muncul di path `data/shop_domain.CSV`, lalu lengkapi semua kolom yang dibutuhkan kemudian simpan tetap dengan format `.CSV`. Semua pengaturan telah selesai.**
+**Setelah selesai konfigurasi lalu jalankan file `run.php` dengan command `php run.php` di terminal. Kemudian file list produk akan muncul di path `data/shop_domain.CSV`, lalu lengkapi semua kolom yang dibutuhkan kemudian simpan tetap dengan format `.CSV`.**
 
-**Jalankan `run.php` sesuai yang kamu butuhkan, disarankan running 24 jam dengan RDP atau Cloud9 untuk terus memeriksa update produk dari supplier Shopee selama 24 jam penuh.**
+**Cara menemukan `ShopID` dan `ItemID` Shopee:**
+
+Misal. URL Produk Shopee: `https://shopee.co.id/XXXXXXXXXXXXXX-i.20481265.6927707104`
+
+ShopID: 20481265
+
+ItemID: 6927707104
+
+**Cara menemukan URL Gambar Shopee**
+- Klik Kanan gambar utama 
+- Klik `View Background Image`
+- Kemudian Copy URL
+
+**Pengaturan sudah selesai. Jalankan `run.php` sesuai yang kamu butuhkan, disarankan running 24 jam dengan RDP atau Cloud9 untuk terus memeriksa update produk dari supplier Shopee selama 24 jam penuh.**
